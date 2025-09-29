@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>구름 이동 예측 대시보드</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="600">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { text-align: center; color: #2c3e50; }
+        .prediction-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .prediction-box { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+        .timestamp { color: #7f8c8d; font-size: 14px; }
+        .status { padding: 5px 10px; border-radius: 4px; color: white; background-color: #27ae60; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌤️ 한국 구름 이동 예측 시스템</h1>
+        <p>GK2A 위성 데이터 기반 실시간 구름 예측</p>
+        <div class="status">운영 중</div>
+    </div>
+
+    <div class="prediction-grid">
+        <div class="prediction-box">
+            <h3>📡 최근 관측</h3>
+            <p class="timestamp">업데이트: 2025-09-26 18:50 KST</p>
+            <p>구름 커버: 40.1%</p>
+        </div>
+
+        <div class="prediction-box">
+            <h3>🔮 10분 후 예측</h3>
+            <p class="timestamp">예측 시간: 2025-09-26 19:00 KST</p>
+            <p>예상 구름 커버: 40.1%</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
